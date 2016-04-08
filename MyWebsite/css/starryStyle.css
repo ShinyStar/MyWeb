@@ -5,6 +5,7 @@
 
 body{
     background-color:black;
+    font-family:"Tahoma";
 }
 
 #banner {			
@@ -32,7 +33,7 @@ body{
 
 #header {			
     color:black;
-	line-height:1px;
+	line-height:0px;
 	margin-top: 70px;
 	text-align:center;
 	font-size:50px;
@@ -42,25 +43,35 @@ body{
 }
 
 #content{
-    left:10%;
+    left:15%;
     top:0px;
     background-color:white;
-    width:80%;
-    height: 700px;
+    width:70%;
+    height: fit-content;
     border-radius: 0px 0px 50px 30px;
     position:absolute;
     z-index:1;
+    padding-bottom:10px;
     
     text-align: center;
     font-size: 1em;
 	color:black;
-    padding:1%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:155px;
 	background-image:url("../images/bottomstars3.png");
 	background-position: left bottom;
 	background-repeat: repeat-x;
 }
 
 
+#buttons{
+    position:fixed;
+    z-index:4;
+    top:0px;
+}
+
+/*HOME BUTTON*/
 #homeButton{
     display:block;
     top:125px;
@@ -73,7 +84,7 @@ body{
     position:absolute;
     animation: rotateButton 0.5s;
     transition: height 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
-    z-index:4;
+    -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
 }
 
 @keyframes rotateButton{
@@ -89,8 +100,199 @@ body{
 }
 
 #homeButton:hover{
-    height:70px;
-    width:70px;
+    border-radius:40%;
+    width:150px;
     background-image: unset;
     background-color: #4c91c7;
+    background-image:url("../images/buttons/homeButton.png");
+}
+#homeButton:hover:after{
+    color:white;
+    padding-top:25px;
+    padding-left:55px;
+    content: "HOME";
+    font-size: 2em;
+    font-family:"Sketchbook";
+}
+
+/*ART BUTTON*/
+#artButton{
+    display:block;
+    top:180px;
+    left:10px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-image:url("../images/buttons/penButton.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    animation: rotateButton 0.5s;
+    transition: height 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+    -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+}
+
+#artButton:hover{
+    border-radius:40%;
+    width:150px;
+    background-image: unset;
+    background-color: #4c91c7;
+    background-image:url("../images/buttons/penButton.png");
+}
+#artButton:hover:after{
+    color:white;
+    padding-top:25px;
+    padding-left:55px;
+    content: "ART";
+    font-size: 2em;
+    font-family:"Sketchbook";
+}
+/*GAMES BUTTON*/
+#gamesButton{
+    display:block;
+    top:235px;
+    left:10px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-image:url("../images/buttons/gamesButton.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    animation: rotateButton 0.5s;
+    transition: height 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+    -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+}
+#gamesButton:hover{
+    border-radius:40%;
+    width:150px;
+    background-image: unset;
+    background-color: #4c91c7;
+    background-image:url("../images/buttons/gamesButton.png");
+}
+#gamesButton:hover:after{
+    color:white;
+    padding-top:25px;
+    padding-left:55px;
+    content: "GAMES";
+    font-size: 2em;
+    font-family:"Sketchbook";
+}
+/*CODE BUTTON*/
+#codeButton{
+    display:block;
+    top:290px;
+    left:10px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-image:url("../images/buttons/codeButton.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    animation: rotateButton 0.5s;
+    transition: height 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+    -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+}
+#codeButton:hover{
+    border-radius:40%;
+    width:150px;
+    background-image: unset;
+    background-color: #4c91c7;
+    background-image:url("../images/buttons/codeButton.png");
+}
+#codeButton:hover:after{
+    color:white;
+    padding-top:25px;
+    padding-left:55px;
+    content: "CODE";
+    font-size: 2em;
+    font-family:"Sketchbook";
+}
+/*MUSIC BUTTON*/
+#musicButton{
+    display:block;
+    top:345px;
+    left:10px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-image:url("../images/buttons/musicButton.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    animation: rotateButton 0.5s;
+    transition: height 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+    -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+}
+#musicButton:hover{
+    border-radius:40%;
+    width:150px;
+    background-image: unset;
+    background-color: #4c91c7;
+    background-image:url("../images/buttons/musicButton.png");
+}
+#musicButton:hover:after{
+    color:white;
+    padding-top:25px;
+    padding-left:55px;
+    content: "MUSIC";
+    font-size: 2em;
+    font-family:"Sketchbook";
+}
+/*MAIL BUTTON*/
+#mailButton{
+    display:block;
+    top:400px;
+    left:10px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-image:url("../images/buttons/mailButton.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    animation: rotateButton 0.5s;
+    transition: height 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+    -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+}
+#mailButton:hover{
+    border-radius:40%;
+    width:150px;
+    background-image: unset;
+    background-color: #4c91c7;
+    background-image:url("../images/buttons/mailButton.png");
+}
+#mailButton:hover:after{
+    color:white;
+    padding-top:25px;
+    padding-left:55px;
+    content: "MAIL";
+    font-size: 2em;
+    font-family:"Sketchbook";
+}
+/*ME BUTTON*/
+#meButton{
+    display:block;
+    top:455px;
+    left:10px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-image:url("../images/buttons/meButton.png");
+    background-repeat: no-repeat;
+    position:absolute;
+    animation: rotateButton 0.5s;
+    transition: height 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+    -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
+}
+#meButton:hover{
+    border-radius:40%;
+    width:150px;
+    background-image: unset;
+    background-color: #4c91c7;
+    background-image:url("../images/buttons/meButton.png");
+}
+#meButton:hover:after{
+    color:white;
+    padding-top:25px;
+    padding-left:55px;
+    content: "ME";
+    font-size: 2em;
+    font-family:"Sketchbook";
 }
