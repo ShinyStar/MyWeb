@@ -40,5 +40,5 @@ function stars(){
         update();
 		context.fill();
 	}
- 	setInterval(function(){t++;draw()}, 1000);
+ 	//setInterval(function(){t++;draw()}, 1000);
 }

@@ -24,9 +24,9 @@ canvas {
     left:0;
     height: 150px;
     width:100%;
-    background-image: url("../images/topstars1.png");
-    background-repeat: repeat-x repeat-y;
-    background-position: left top;
+    background-image: url("../images/banner1.png"), url("../images/topstars1.png");
+    background-repeat:  no-repeat, repeat-x;
+    background-position: 50% 0%, left top;
     position: absolute;
     z-index:2;
     box-shadow: 2px 2px 5px black, 0px 2px 5px black;
