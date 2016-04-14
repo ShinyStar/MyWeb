@@ -90,6 +90,7 @@ canvas {
     height:50px;
     width:50px;
     border-radius:50%;
+    line-height: 60px;
     background-image:url("../images/buttons/homeButton.png");
     background-repeat: no-repeat;
     position:absolute;
@@ -112,7 +113,7 @@ canvas {
 
 #homeButton:hover{
     border-radius:40%;
-    width:150px;
+    width:140px;
     background-image: unset;
     background-color: #4c91c7;
     background-image:url("../images/buttons/homeButton.png");
@@ -134,6 +135,7 @@ canvas {
     height:50px;
     width:50px;
     border-radius:50%;
+    line-height: 60px;
     background-image:url("../images/buttons/penButton.png");
     background-repeat: no-repeat;
     position:absolute;
@@ -144,7 +146,7 @@ canvas {
 
 #artButton:hover{
     border-radius:40%;
-    width:150px;
+    width:115px;
     background-image: unset;
     background-color: #4c91c7;
     background-image:url("../images/buttons/penButton.png");
@@ -165,6 +167,7 @@ canvas {
     height:50px;
     width:50px;
     border-radius:50%;
+    line-height: 60px;
     background-image:url("../images/buttons/gamesButton.png");
     background-repeat: no-repeat;
     position:absolute;
@@ -174,7 +177,7 @@ canvas {
 }
 #gamesButton:hover{
     border-radius:40%;
-    width:150px;
+    width:145px;
     background-image: unset;
     background-color: #4c91c7;
     background-image:url("../images/buttons/gamesButton.png");
@@ -195,6 +198,7 @@ canvas {
     height:50px;
     width:50px;
     border-radius:50%;
+    line-height: 60px;
     background-image:url("../images/buttons/codeButton.png");
     background-repeat: no-repeat;
     position:absolute;
@@ -204,7 +208,7 @@ canvas {
 }
 #codeButton:hover{
     border-radius:40%;
-    width:150px;
+    width:140px;
     background-image: unset;
     background-color: #4c91c7;
     background-image:url("../images/buttons/codeButton.png");
@@ -225,6 +229,7 @@ canvas {
     height:50px;
     width:50px;
     border-radius:50%;
+    line-height: 60px;
     background-image:url("../images/buttons/musicButton.png");
     background-repeat: no-repeat;
     position:absolute;
@@ -234,7 +239,7 @@ canvas {
 }
 #musicButton:hover{
     border-radius:40%;
-    width:150px;
+    width:145px;
     background-image: unset;
     background-color: #4c91c7;
     background-image:url("../images/buttons/musicButton.png");
@@ -255,6 +260,7 @@ canvas {
     height:50px;
     width:50px;
     border-radius:50%;
+    line-height: 60px;
     background-image:url("../images/buttons/mailButton.png");
     background-repeat: no-repeat;
     position:absolute;
@@ -264,7 +270,7 @@ canvas {
 }
 #mailButton:hover{
     border-radius:40%;
-    width:150px;
+    width:140px;
     background-image: unset;
     background-color: #4c91c7;
     background-image:url("../images/buttons/mailButton.png");
@@ -285,6 +291,7 @@ canvas {
     height:50px;
     width:50px;
     border-radius:50%;
+    line-height: 60px;
     background-image:url("../images/buttons/meButton.png");
     background-repeat: no-repeat;
     position:absolute;
@@ -294,7 +301,7 @@ canvas {
 }
 #meButton:hover{
     border-radius:40%;
-    width:150px;
+    width:110px;
     background-image: unset;
     background-color: #4c91c7;
     background-image:url("../images/buttons/meButton.png");
