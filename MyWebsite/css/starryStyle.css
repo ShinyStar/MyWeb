@@ -5,6 +5,11 @@
     src: url("../fonts/Sketchbook.otf");
 }
 
+a:link    {color:#0066CC; background-color:transparent; text-decoration:none}
+a:visited {color:#0066CC; background-color:transparent; text-decoration:none}
+a:hover   {color:#2424B2; background-color:transparent; text-decoration:none}
+a:active  {color:#8DC6FF; background-color:transparent; text-decoration:none}
+
 body{
     background-color:black;
     font-family:"Tahoma";
