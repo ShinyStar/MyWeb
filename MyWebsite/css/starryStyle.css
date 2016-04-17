@@ -69,12 +69,12 @@ canvas {
     z-index:1;
     padding-bottom:10px;
     
-    text-align: center;
+    text-align: left;
     font-size: 1em;
 	color:black;
     padding-left:5%;
     padding-right:5%;
-    padding-top:155px;
+    padding-top:170px;
 	background-image:url("../images/bottomstars3.png");
 	background-position: left bottom;
 	background-repeat: repeat-x;
