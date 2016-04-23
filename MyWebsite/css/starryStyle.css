@@ -80,6 +80,30 @@ canvas {
 	background-repeat: repeat-x;
 }
 
+.imgal {
+	border-radius: 15px 50px;
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+	-webkit-transition: opacity 0.2s;
+	transition: opacity filter 0.2s;
+}
+		
+.imgal:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	box-shadow: 2px 2px 5px #66CCFF, -2px -2px 5px #66CCFF;
+}
+		
+.a_title {
+	border-radius: 15px 50px;
+	border-style: double;
+	border-color:grey;			
+	padding:1% 2% 1% 1%; 
+	background-image:url("../images/bottomrightcornergears.png");
+	background-position:right bottom;
+	background-repeat:no-repeat;
+}
+
 #buttons{
     position:fixed;
     z-index:4;
