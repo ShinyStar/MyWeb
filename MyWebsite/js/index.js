@@ -42,3 +42,11 @@ function stars(){
 	}
  	//setInterval(function(){t++;draw()}, 1000);
 }
+
+
+function elevateTo(tag){
+	var elevator = new Elevator({
+		targetElement: document.querySelector(tag),
+		element: document.querySelector('.elevator-button'),
+  	});
+}
