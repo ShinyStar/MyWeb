@@ -55,7 +55,7 @@ canvas {
 	font-size:50px;
     z-index:3;
     position:relative;
-    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: "Tahoma";
 }
 
 #content{
@@ -152,7 +152,7 @@ canvas {
     padding-left:55px;
     content: "HOME";
     font-size: 1.5em;
-    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: "Tahoma";
 }
 
 /*ART BUTTON*/
@@ -185,7 +185,7 @@ canvas {
     padding-left:55px;
     content: "ART";
     font-size: 1.5em;
-    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: "Tahoma";
 }
 /*GAMES BUTTON*/
 #gamesButton{
@@ -216,7 +216,7 @@ canvas {
     padding-left:55px;
     content: "GAMES";
     font-size: 1.5em;
-    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: "Tahoma";
 }
 /*CODE BUTTON*/
 #codeButton{
@@ -247,7 +247,7 @@ canvas {
     padding-left:55px;
     content: "CODE";
     font-size: 1.5em;
-    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: "Tahoma";
 }
 /*MUSIC BUTTON*/
 #musicButton{
@@ -278,7 +278,7 @@ canvas {
     padding-left:55px;
     content: "MUSIC";
     font-size: 1.5em;
-    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: "Tahoma";
 }
 /*MAIL BUTTON*/
 #mailButton{
@@ -309,7 +309,7 @@ canvas {
     padding-left:55px;
     content: "MAIL";
     font-size: 1.5em;
-    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: "Tahoma";
 }
 /*ME BUTTON*/
 #meButton{
@@ -340,7 +340,7 @@ canvas {
     padding-left:55px;
     content: "ME";
     font-size: 1.5em;
-    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: "Tahoma";
 }
 
 /*UP BUTTON*/
