@@ -55,7 +55,7 @@ canvas {
 	font-size:50px;
     z-index:3;
     position:relative;
-    font-family:"Sketchbook";
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 
 #content{
@@ -151,8 +151,8 @@ canvas {
     padding-top:25px;
     padding-left:55px;
     content: "HOME";
-    font-size: 2em;
-    font-family:"Sketchbook";
+    font-size: 1.5em;
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 
 /*ART BUTTON*/
@@ -184,8 +184,8 @@ canvas {
     padding-top:25px;
     padding-left:55px;
     content: "ART";
-    font-size: 2em;
-    font-family:"Sketchbook";
+    font-size: 1.5em;
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 /*GAMES BUTTON*/
 #gamesButton{
@@ -215,8 +215,8 @@ canvas {
     padding-top:25px;
     padding-left:55px;
     content: "GAMES";
-    font-size: 2em;
-    font-family:"Sketchbook";
+    font-size: 1.5em;
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 /*CODE BUTTON*/
 #codeButton{
@@ -246,8 +246,8 @@ canvas {
     padding-top:25px;
     padding-left:55px;
     content: "CODE";
-    font-size: 2em;
-    font-family:"Sketchbook";
+    font-size: 1.5em;
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 /*MUSIC BUTTON*/
 #musicButton{
@@ -277,8 +277,8 @@ canvas {
     padding-top:25px;
     padding-left:55px;
     content: "MUSIC";
-    font-size: 2em;
-    font-family:"Sketchbook";
+    font-size: 1.5em;
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 /*MAIL BUTTON*/
 #mailButton{
@@ -308,8 +308,8 @@ canvas {
     padding-top:25px;
     padding-left:55px;
     content: "MAIL";
-    font-size: 2em;
-    font-family:"Sketchbook";
+    font-size: 1.5em;
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 /*ME BUTTON*/
 #meButton{
@@ -339,8 +339,8 @@ canvas {
     padding-top:25px;
     padding-left:55px;
     content: "ME";
-    font-size: 2em;
-    font-family:"Sketchbook";
+    font-size: 1.5em;
+    font-family:"'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 
 /*UP BUTTON*/
