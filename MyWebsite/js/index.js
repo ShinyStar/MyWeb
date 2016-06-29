@@ -5,6 +5,15 @@ function randomimage() {
     document.getElementById('myImage').src = "../images/randomChibis/"+n.toString()+".png";
 }
 
+function gallery(id) {
+	var c = document.getElementById("galleryCanvas");
+	var ctx = c.getContext("2d");
+	var img = document.getElementById(id.toString());
+	ctx.fillStyle = "#000000";
+	ctx.fillRect(0,0,750,500);
+	ctx.drawImage(img,0,0);
+}
+
 
 function stars(){
     var canvas = document.getElementById("canvas");
