@@ -104,11 +104,17 @@ canvas {
 	background-repeat:no-repeat;
 }
 
+.gameDescription {
+    padding-left: 100px;
+    padding-right: 5%;
+}
+
 #buttons{
     position:fixed;
     z-index:4;
     top:0px;
 }
+
 
 /*HOME BUTTON*/
 #homeButton{
