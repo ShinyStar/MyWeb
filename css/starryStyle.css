@@ -123,7 +123,8 @@ canvas {
     left:10px;
     height:50px;
     width:50px;
-    border-radius:50%;
+    /*border-radius:10%;*/
+    border: 1px solid lightblue;
     line-height: 60px;
     background-image:url("../images/buttons/homeButton.png");
     background-repeat: no-repeat;
@@ -138,7 +139,7 @@ canvas {
      transform: rotate(-90deg); 
      width:20px;
      height:20px;
-     border-radius:50%;
+     /*border-radius:10%;*/
     }
     to {
        transform: rotate(0deg);
@@ -146,7 +147,7 @@ canvas {
 }
 
 #homeButton:hover{
-    border-radius:40%;
+    /*border-radius:10%;*/
     width:140px;
     background-image: unset;
     background-color: #4c91c7;
@@ -154,7 +155,6 @@ canvas {
 }
 #homeButton:hover:after{
     color:white;
-    padding-top:25px;
     padding-left:55px;
     content: "HOME";
     font-size: 1.5em;
@@ -168,7 +168,8 @@ canvas {
     left:10px;
     height:50px;
     width:50px;
-    border-radius:50%;
+    /*border-radius:50%;*/
+    border: 1px solid lightblue;
     line-height: 60px;
     background-image:url("../images/buttons/penButton.png");
     background-repeat: no-repeat;
@@ -179,7 +180,7 @@ canvas {
 }
 
 #artButton:hover{
-    border-radius:40%;
+    /*border-radius:40%;*/
     width:115px;
     background-image: unset;
     background-color: #4c91c7;
@@ -200,7 +201,8 @@ canvas {
     left:10px;
     height:50px;
     width:50px;
-    border-radius:50%;
+    /*border-radius:50%;*/
+    border: 1px solid lightblue;
     line-height: 60px;
     background-image:url("../images/buttons/gamesButton.png");
     background-repeat: no-repeat;
@@ -210,7 +212,7 @@ canvas {
     -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
 }
 #gamesButton:hover{
-    border-radius:40%;
+    /*border-radius:40%;*/
     width:145px;
     background-image: unset;
     background-color: #4c91c7;
@@ -231,7 +233,8 @@ canvas {
     left:10px;
     height:50px;
     width:50px;
-    border-radius:50%;
+    /*border-radius:50%;*/
+    border: 1px solid lightblue;
     line-height: 60px;
     background-image:url("../images/buttons/codeButton.png");
     background-repeat: no-repeat;
@@ -241,7 +244,7 @@ canvas {
     -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
 }
 #codeButton:hover{
-    border-radius:40%;
+    /*border-radius:40%;*/
     width:140px;
     background-image: unset;
     background-color: #4c91c7;
@@ -262,7 +265,8 @@ canvas {
     left:10px;
     height:50px;
     width:50px;
-    border-radius:50%;
+    /*border-radius:50%;*/
+    border: 1px solid lightblue;
     line-height: 60px;
     background-image:url("../images/buttons/musicButton.png");
     background-repeat: no-repeat;
@@ -272,7 +276,7 @@ canvas {
     -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
 }
 #musicButton:hover{
-    border-radius:40%;
+    /*border-radius:40%;*/
     width:145px;
     background-image: unset;
     background-color: #4c91c7;
@@ -293,7 +297,8 @@ canvas {
     left:10px;
     height:50px;
     width:50px;
-    border-radius:50%;
+    /*border-radius:50%;*/
+    border: 1px solid lightblue;
     line-height: 60px;
     background-image:url("../images/buttons/mailButton.png");
     background-repeat: no-repeat;
@@ -303,7 +308,7 @@ canvas {
     -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
 }
 #mailButton:hover{
-    border-radius:40%;
+    /*border-radius:40%;*/
     width:140px;
     background-image: unset;
     background-color: #4c91c7;
@@ -324,7 +329,8 @@ canvas {
     left:10px;
     height:50px;
     width:50px;
-    border-radius:50%;
+    /*border-radius:50%;*/
+    border: 1px solid lightblue;
     line-height: 60px;
     background-image:url("../images/buttons/meButton.png");
     background-repeat: no-repeat;
@@ -334,7 +340,7 @@ canvas {
     -webkit-transition: border-radius 0.2s ease-out, width 0.2s ease-out, background-image 0.2s;
 }
 #meButton:hover{
-    border-radius:40%;
+    /*border-radius:40%;*/
     width:110px;
     background-image: unset;
     background-color: #4c91c7;
